@@ -1,0 +1,203 @@
+body{
+  background-color: #ffffff;
+}
+/* .particles {
+ 
+  background-image: url('https://img.freepik.com/free-photo/christmas-background-with-gold-bokeh-lights-design_1048-13477.jpg'); /* Replace with your pattern image 
+  
+} */
+.cardservice{
+  
+  width: auto !important;
+  height: auto !important;
+  padding: 50px !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.cardabout{
+  width: 40%;
+  height: 30%;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  border-radius: 10px !important;
+  
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.paragraph{
+  padding: 50px;
+  
+  text-indent: 50px;
+  text-align: justify;
+}
+.cardcontact{
+
+  width: 80%;
+  height: 100% !important;
+  padding-top: 0px !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+
+
+
+
+
+ .bg{
+  background-color:  #FFFFFF;
+  
+  box-shadow: 0px 3px 45px 0px rgba(0, 0, 0, 0.1411764705882353);
+
+} 
+.fontone{
+  
+  font-family: 'Signatra', cursive;
+  font-size: 35px;
+}
+.fonttwo{
+  font-family:"Merriweather", Sans-serif;
+}
+.text{
+  color: var(--e-global-color-secondary);
+  font-style: sans-serif;
+}
+
+/* background-color:  #FFD700; */
+
+.logo{
+  display: flex;
+}
+
+ul {
+  list-style:disc;
+  padding: 0;
+  margin: 0;
+}
+.horizontal1{
+  background-color:#ffffff;
+  width: 80% !important;
+  height: 3px !important;
+  
+}
+.horizontal2{
+  background-color:#ffffff;
+  width: 80% !important;
+  height: 3px !important;
+  
+}
+.horizontal3{
+  background-color: #ffffff;
+  width: 78% !important;
+  height: 3px !important;
+  
+}
+.fs{
+   font-family: 'Cinzel', serif; 
+  font-weight: bold;
+  font-size: 9px;
+  position: relative;
+  left: 14px; 
+  top: 3px;
+ 
+}
+.fs1{
+  font-family: 'Cinzel', serif; 
+ font-weight: bold;
+ font-size: 9px;
+ position: relative;
+ left: 4px; 
+ top: 0px;
+
+}
+.navright{
+  margin-right: 280px !important;
+}
+.hover:hover{
+  /* color: #FCC000; */
+  color: #ffc107;
+}
+
+.nav-link.selected {
+  /* color: #FCC000; */
+  color: #ffc107;     /* Change text color for selected page */
+}
+
+#home{
+  padding-top: 120px;
+  
+}
+.card{
+  padding: 50px;
+}
+#services{
+  padding-top: 150px !important;
+}
+#about{
+  padding-top: 130px;
+}
+#contact{
+  padding-top: 110px;
+}
+#portfolio{
+  padding-top: 150px;
+}
+
+.one{
+  z-index: 100;
+}
+.map{
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+}
+.insta{
+  color: #465A69;
+}
+.footer{
+  background-color: black;
+  
+height: 100px;
+}
+.insta{
+  width: 35px;
+  height: 35px;
+}
+
+
+.courouselwidth{
+  height: 70vh ;
+  width: 100% ;
+   
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 500px) { 
+  .courouselwidth{
+    height: 30vh ;
+    width: 100% ;
+  }
+  #services{
+    padding-top: 50px !important;
+  }
+  #about{
+    padding-top: 50px;
+  }
+  #contact{
+    padding-top: 50px;
+  }
+  #portfolio{
+    padding-top: 50px;
+  }
+
+}
+@media screen and (max-width: 1000px) { 
+  .courouselwidth{
+    height: 50vh ;
+    width: 100% ;
+  }
+}
